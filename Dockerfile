@@ -5,7 +5,7 @@ RUN \
   git clone https://github.com/stedolan/jq.git && \
   cd jq && \
   autoreconf -i && \
-  ./configure --enable-shared && \
+  ./configure --enable-shared --disable-maintainer-mode && \
   make && \
   make install && \
   ldconfig
