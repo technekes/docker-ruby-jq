@@ -5,4 +5,4 @@ RUN \
   apt-get install -y libonig-dev && \
   rm -rf /var/lib/apt/lists/*
 
-RUN gem install ruby-jq
+RUN gem install bundler ruby-jq
